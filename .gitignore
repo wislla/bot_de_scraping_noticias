@@ -1,0 +1,47 @@
+# Diretórios e arquivos padrão do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos de configuração do Poetry
+poetry.lock
+*.egg-info/
+
+# Banco de dados local
+*.sqlite
+*.db
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de build
+build/
+dist/
+*.egg
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+
+# Arquivos gerados pelo Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos gerados por pytest
+*.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.hypothesis/
